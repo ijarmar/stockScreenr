@@ -1,21 +1,21 @@
-#Getting started
+# Getting started
 
-###API - https://api.iextrading.com/1.0/
+### API - https://api.iextrading.com/1.0/
 
-####Start by importing StockData.php
+#### Start by importing StockData.php
 
 ```PHP
     require_once('yourPathToLibrary/StockData.php');
 ```
 
 
-####Create a class reference
+#### Create a class reference
 
 ```PHP
     $screenr = new StockData(string $apiURL);
 ```
 
-###Available functions
+### Available functions
 
 Function | Arguments | Description 
 -------- | --------- | -----------
