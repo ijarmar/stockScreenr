@@ -13,7 +13,7 @@
 
 ```PHP
     $screenr = new StockData(string $apiURL);
-```
+``` 
 
 ### Available functions
 
