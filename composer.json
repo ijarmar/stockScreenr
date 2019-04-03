@@ -1,0 +1,21 @@
+{
+    "name": "stock-screener/screenr",
+    "description": "PHP library to get data from IEXTrading API",
+    "type": "library",
+    "license": "MIT",
+    "require": {
+        "php": "^7.3"
+    },
+    "authors": [
+        {
+            "name": "Yaroslav Ishanov",
+            "email": "ny@nettifix.fi"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "stockScreenr\\": "classes/"
+        }
+    }
+
+}
