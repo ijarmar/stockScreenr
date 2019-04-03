@@ -22,3 +22,4 @@ Function | Description
 `getCompanyData(string $ticker)` | Returns array of basic info about company
 `getBookData(string $ticker)` |  Returns array of current bids and asks for stock
 `getChartData(string $ticker, string $timeFrame)` | Returns all possible chart data for specific [timeframes](https://iextrading.com/developer/docs/#chart)
+`getDividendData(string $ticker, string $timeFrame)` | Returns info about dividends see [timeframes](https://iextrading.com/developer/docs/#dividends)
